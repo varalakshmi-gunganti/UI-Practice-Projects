@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>preactice-6 (colab files nic)</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    
+    <style>
+ header{
+    display: grid; 
+                grid-template-columns: 6fr 6fr;
+                height: 20%
+                margin-top: 10px;
+                
+    justify-content: space-between;
+    background-color: rgb(14, 90, 131);
+    color:white;
+    padding: 10px;
+    font-size:larger 
+ }
+
+ footer{
+    display: grid; 
+                grid-template-columns:4fr 4fr 4fr ;
+                height: 20% ;         
+    justify-content: space-between;
+    background-color: rgb(14, 90, 131);
+    color:white;
+    padding: 10px;
+    font-size:larger 
+ }
+ .foot{
+    align-items: center;
+    background-color: rgb(14, 90, 131);
+    color:white;
+ } 
+ .crd-temp{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+ }
+ .card{
+    background-color: rgba(20, 184, 229, 0.963);
+    color: white;
+ }
+a {
+    color: #fff;
+}
+a:hover{
+    color:yellow;
+}
+@media screen {
+    
+}
+@media screen and (min-width:500px) {
+            ol {
+                display: flex;
+                justify-content: space-between;
+            }
+            li {
+                width: 100px;
+            }
+        }
+        @media screen and (max-width:499px) {
+           ol {
+            display: flex;
+            flex-direction: column;
+            height: 200px;
+            justify-content: space-between;
+           }
+           li span {
+            display: none;
+            width:fit-content;
+           }
+           li {
+            border-radius: 20px;
+           }
+           li:hover span {
+            display: inline;
+           }
+           li:hover {
+             width: 100px;
+             transition: 3s;
+           }
+        }
+        }
+    </style>
+</head>
+<body>
+   
+    <header >
+        <div>
+            <span><img src="./images/gov logo-2.jpg" width="15%"></span>
+            
+            <span><b>SUPPLY CHAIN MANAGEMENT</b>Governament of Telangana</span>
+        </div>
+        <div class="justify-content:space-between;listcollect ">
+              <span class="bi bi-house "><a href="#"> Home</a></span>  
+              <span class="bi bi-book-fill"><a href="#">Contact Us</a></span> 
+              <span class="bi bi-info"><a href="#">About Us</a></span>
+              <span class="bi bi-question-circle-fill"><a href="#">FAQ's</a></span> 
+              <span><button style="border-radius: 5px;"><span class="bi bi-file-pdf"></span><a href="#"> PDF Tools</a></button></span> 
+              <span><button class="btn btn-primary"><a href="#">Login</a></button></span>
+        </div>
+    </header>
+    <div >
+        <marquee scrollamount="8" direction="left" style=" color: rgb(14, 90, 131);font-size: 22px;">
+            <p><b>To dispatch Teacher ROS use'Teacher ROs Dispatch' Provision given under Stage-2 Tab of MIs point</b></p>
+        </marquee>
+       </div>
+    <section>
+       <div class="container-fluid">
+        <div class="carousel slide carousel-dark" id="topBanner" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/gov cour11.jpg" class="d-block w-100 h-25">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/gov cour12.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/gov cour-13.jpg" class="d-block w-100">
+                </div>
+               
+            </div>
+            <button data-bs-slide="prev" data-bs-target="#topBanner" class="carousel-control-prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-slide="next" data-bs-target="#topBanner" class="carousel-control-next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            
+        </div>
+       </div>
+      <div class="crd-temp ">
+        <div class="card p-2 m-2 w-75 h-100" >
+            <div class="card-body">
+               <h3 class="card-title text-center "><b>Reports</b></h3>
+               
+            </div>
+         </div>
+         <div class="card p-2 m-2 w-75 h-100" >
+            <div class="card-body">
+                <h3 class="card-title text-center"><b>Telangana ePDS Links</b></h3>
+                
+             </div>
+         </div>
+         <div class="card p-1 m-1 w-75 h-100" >  
+            <div class="card-body">
+                <h3 class="card-title text-center"><b>Downloads</b></h3>
+                
+             </div>
+         </div>
+      </div>
+    </section>
+    <div class="btnlist" style="margin-top: 2%;justify-content: space-between;background-color: rgb(50, 22, 75);">
+        <marquee style="background-color: rgb(117, 196, 246) ;" direction="right" behavior="alternate" onmouseover="this.stop();" onmouseout="this.start();">
+            <img src="./images/gov cour-14.jpg" height="80%">
+          </marquee>
+    </div>
+    <footer class="">
+<div>
+<div class="footer-title"><b>Quick Links</b></div>
+<div>Sitemap</div>
+<div>FAQ's</div>
+<div>Contact us</div>
+<div>Screen Reader Access</div>
+<div>Terms for use</div>
+</div>
+<div>
+<div class="footer-title"><b>Policies</b></div>
+<div>Hyperlinking Policy</div>
+<div>Privacy Policy</div>
+<div>Copyright Policy</div>
+</div>
+<div>
+    <div class="footer-title"><b>Disclaimer:</b></div>
+    <div><p>This website is designed to disseminate information/activities related to National Informatics Centre, Ministry of Electronics & IT (MeitY).</p></div>
+    <div>Designed & developed by<img src="./images/gov icon-8.jpg" width="25%"></div>
+    <div>
+        <span>Version : 2.0.5</span>
+        <span>Last Updated : 22 Dec 2023</span>
+    </div>
+</div>
+    </footer>
+    <div class="foot text-center " style="border-top:5px solid white;">
+        <p>Copyright <span class="bi bi-c-circle"></span> 2023 SUPPLY CHAIN MANAGEMENT. All rights reserved.</p>
+    </div>
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
